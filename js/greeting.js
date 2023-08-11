@@ -13,10 +13,6 @@ setTimeout(() => {
     greeting2.innerHTML = "A Junior Developer";
 }, 4000);
 
-// setTimeout(() => {
-    
-   
-// }, 10000);
 
 setTimeout(() => {
     greeting1.style.visibility = 'hidden';

@@ -22,15 +22,14 @@
         <li><a href="#work">My Work</a></li>
         <li><a href="resume.html" target="_blank">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li class="ai"><a href="#about">Ai Oakenfull</a></li>
+        <li class="ai"><a href="#footer">Ai Oakenfull</a></li>
       </ul>
     </nav>
 
     <div class="mobile-container">
     <div class="topnav" id="top-nav">
-      <a href="#home" class="hamburger-ai">Ai Oakenfull</a>
+      <a href="#footer" class="hamburger-ai">Ai Oakenfull</a>
       <div id="myLinks">
-        <!-- <a href="#about">About</a> -->
         <a href="#work">My Work</a>
         <a href="resume.html" target="_blank">Resume</a>
         <a href="#contact">Contact</a>
@@ -53,35 +52,32 @@
           <p class="greeting2"></p>
         </section>
         <a href="#nav"><button class="up-btn1"><i class="fa-solid fa-angle-up fa-lg"></i></button></a>
-        <a href="#top-nav"><button class="up-btn2"><i class="fa-solid fa-angle-up fa-lg"></i></button></a>
+        <a href="#top-nav"><button class="up-btn2" onclick="mobileNav()"><i class="fa-solid fa-angle-up fa-lg"></i></button></a>
       </header>
     <main>
       <section id="work">
         <h1 class="title">My Work</h1>
         <div class="slideshow-container">
           <div class="mySlides fade">
-            <!-- <div class="numbertext">1 / 3</div> -->
             <img src="./images/dice-generator.PNG" alt="dice-generator-photo">
             <div class="text">
               Dice Generator
-              <a href="https://github.com/popo26/Dice-Generator/tree/DiceGenEnhanced" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+              <a class="social-icons" href="https://github.com/popo26/Dice-Generator/tree/DiceGenEnhanced" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
             </div>
           </div>
           
           <div class="mySlides fade">
-            <!-- <div class="numbertext">2 / 3</div> -->
             <img src="./images/yellow-orange.jpg">
             <div class="text">
               Project 2
-              <a href="https://github.com/popo26/Dice-Generator/tree/DiceGenEnhanced" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></div>
+              <a class="social-icons" href="https://github.com/popo26/Dice-Generator/tree/DiceGenEnhanced" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></div>
           </div>
           
           <div class="mySlides fade">
-            <!-- <div class="numbertext">3 / 3</div> -->
             <img src="./images/pink.jpg">
             <div class="text">
               Project 3
-              <a href="https://github.com/popo26/Dice-Generator/tree/DiceGenEnhanced" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+              <a class="social-icons" href="https://github.com/popo26/Dice-Generator/tree/DiceGenEnhanced" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
             </div>
           </div>
           
@@ -123,7 +119,7 @@
     </main>
   </div>
 
-    <footer>
+    <footer id="footer">
       &#169 Ai Oakenfull 
       <span id="year"></span>
       <span class="social-icons">
@@ -134,7 +130,7 @@
     
 
     
-    <script src="./js/work.js" charset="UTF-8"></script>
+    <script src="./js/work-slides.js" charset="UTF-8"></script>
     <script src="./js/greeting.js" charset="UTF-8"></script>
     <script src="./js/hamburger-nav.js" charset="UTF-8"></script>
     <script src="./js/year.js" charset="UTF-8"></script>
