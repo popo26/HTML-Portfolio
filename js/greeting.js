@@ -13,14 +13,15 @@ setTimeout(() => {
     greeting2.innerHTML = "A Junior Developer";
 }, 4000);
 
-setTimeout(() => {
-    greeting1.style.visibility = 'hidden';
+// setTimeout(() => {
+    
    
-}, 10000);
+// }, 10000);
 
 setTimeout(() => {
+    greeting1.style.visibility = 'hidden';
     greeting2.style.visibility = 'hidden'; 
-}, 12000);
+}, 30000);
 
 
 

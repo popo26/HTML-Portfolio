@@ -22,19 +22,38 @@
         <li><a href="#work">My Work</a></li>
         <li><a href="resume.html" target="_blank">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li class="ai"><a href="#home">Ai Oakenfull</a></li>
+        <li class="ai"><a href="#about">Ai Oakenfull</a></li>
       </ul>
     </nav>
-      <header id="home">
+
+    <div class="mobile-container">
+    <div class="topnav" id="top-nav">
+      <a href="#home" class="hamburger-ai">Ai Oakenfull</a>
+      <div id="myLinks">
+        <!-- <a href="#about">About</a> -->
+        <a href="#work">My Work</a>
+        <a href="resume.html" target="_blank">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </a>
+    </div>
+  </div>
+
+
+
+      <header id="about">
         
         <section>
           <p class="greeting1"></p>
           <article>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non mattis augue. Vestibulum sodales nisl sit amet sem malesuada, vel efficitur lectus rutrum. Proin vel scelerisque arcu. Nam eget ipsum vitae neque porta fermentum. Sed nulla sem, finibus eget pulvinar ut, eleifend et quam. In congue lobortis tortor et ornare. Curabitur dapibus quam eu lectus aliquam, id feugiat orci egestas. Phasellus in ipsum non metus condimentum aliquam scelerisque sit amet mauris. Phasellus lorem arcu, gravida sed nisl id, imperdiet dictum lorem.
+            With a background in Systems Support Engineer and Support Technician over 10 years, I embarked on a new career path that combines my passion for creativity with technology. Additionally, my experience in metalsmithing has honed my eye for detail. I am thrilled to pursue a junior developer role where I can leverage my programming skills to deliver interactive full-stack web applications that provide exceptional user experiences.
           </article>
           <p class="greeting2"></p>
         </section>
-        <a href="#nav"><button class="up-btn"><i class="fa-solid fa-angle-up fa-lg"></i></button></a>
+        <a href="#nav"><button class="up-btn1"><i class="fa-solid fa-angle-up fa-lg"></i></button></a>
+        <a href="#top-nav"><button class="up-btn2"><i class="fa-solid fa-angle-up fa-lg"></i></button></a>
       </header>
     <main>
       <section id="work">
@@ -79,49 +98,6 @@
           </div>
       </section>
       <section id="contact">
-        <!-- <div class="card">
-          <h2>Say Hi!</h2>
-          <div class="row">
-            <div class="col">
-              <div class="form-group">
-                <label>First Name</label>
-                <input type="text">
-              </div>
-            </div>
-        
-            <div class="col">
-              <div class="form-group">
-                <label>Surname</label>
-                <input type="text">
-              </div>
-            </div>
-        
-            <div class="col">
-              <div class="form-group">
-                <label>Email</label>
-                <input type="email">
-              </div>
-            </div>
-        
-            <div class="col">
-              <div class="form-group">
-                <label>Phone</label>
-                <input type="phone">
-              </div>
-            </div>
-        
-            <div class="col">
-              <div class="form-group">
-                <label>Message</label>
-                <textarea class="autoresizing"></textarea>
-              </div>
-            </div>
-        
-            <div class="col">
-              <input type="submit" value="Submit">
-            </div>
-          </div>
-        </div> -->
        
         <div class="contact-container">
         <h1 class="say-hi">Say hi!</h1>
@@ -146,8 +122,21 @@
       
     </main>
   </div>
-    <footer>&#169 Ai Oakenfull 2023</footer>
+
+    <footer>
+      &#169 Ai Oakenfull 
+      <span id="year"></span>
+      <span class="social-icons">
+        <a href="https://www.linkedin.com/in/ai-oakenfull-319297163/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/popo26" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+      </span>
+    </footer>
+    
+
+    
     <script src="./js/work.js" charset="UTF-8"></script>
     <script src="./js/greeting.js" charset="UTF-8"></script>
+    <script src="./js/hamburger-nav.js" charset="UTF-8"></script>
+    <script src="./js/year.js" charset="UTF-8"></script>
   </body>
 </html>
